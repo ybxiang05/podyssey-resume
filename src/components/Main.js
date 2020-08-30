@@ -112,7 +112,7 @@ const CoverLetter = () => {
 
 <li>Working for something like Podyssey is a long game for me. I chose to complete and submit this application in spite of certain rejection to make sure you remember me not only for my talent and skills, but also for my tenacity and work ethic.</li> 
         </ul>
-        <p>Thanks for reading and/or listening. I'll be sure to be ready for your next round of hiring! <span aria-label="smiley face" role="img">😁</span></li>
+        <p>Thanks for reading and/or listening. I'll be sure to be ready for your next round of hiring! <span aria-label="smiley face" role="img">😁</span>
 </p>
 
       
