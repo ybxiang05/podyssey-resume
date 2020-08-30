@@ -8,7 +8,9 @@ import CoverLetter from "./components/main";
 const AppWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 function App() {

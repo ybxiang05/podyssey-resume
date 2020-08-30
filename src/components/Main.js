@@ -12,6 +12,9 @@ import ReactPlayer from 'react-player'
 const StyledDiv = styled.div`
   margin-left: 25%;
   padding: 5%;
+  h3 {
+    color: ${props=>props.theme.color.mermista}
+  }
   ol{
     list-style-type: lower-alpha;
   }
@@ -24,6 +27,14 @@ const StyledDiv = styled.div`
     margin: auto;
     justify-self: center;
   }
+  @media(max-width: 1024px) {
+    margin-left: 0;
+    .react-player {
+      max-width: 300px;
+      max-height: 200px;
+    }
+  }
+  
 `;
 const CoverLetter = () => {
   return (
@@ -57,12 +68,13 @@ const CoverLetter = () => {
       <h3>Why I want to work for Podyssey</h3>
       <p>       
         I want to work for Podyssey for a lot of different reasons, but a big one is simply that I want to work with people who not only conceptualized something like GoodReads for podcasts, but have the skills to bring it to life. One can derive from the idea and functionalities of Podyssey that the creators must:
+        </p>
         <ol>
           <li>really like podcasts</li>
           <li>care about the dissemination of knowledge, ideas, and good storytelling</li>
           <li>have a passion for wanting to bring like-minded people together through the power of language</li>
         </ol>
-
+<p>
         These, in addition to wanting to work in an environment that reflects these values, are all things I value. 
         </p>
         <h3>Work Experience</h3>
@@ -77,7 +89,7 @@ const CoverLetter = () => {
         
       <h3>Why I made this React App instead of writing you a resume</h3>
       <p>
-        I wanted to create my resume like this to demonstrate to you that:
+        I wanted to create my resume like this to demonstrate to you that:</p>
         <ul>
 
 <li>I want to stretch my existing skill-sets, do work that I find meaningful, and grow with groups of like-minded people through the process</li>
@@ -89,7 +101,6 @@ const CoverLetter = () => {
 <li>Working for something like Odyssey is a long game for me. I chose to complete and submit this application in spite the rejection to make sure you remember me not only for my talent and skills, but also for my tenacity and work ethic. You know, for your next round of hiring! ☺️</li>
         </ul>
 
-      </p>
       
     </StyledDiv>
   );

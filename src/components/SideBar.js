@@ -4,7 +4,8 @@ import SpotifyPlayer from "react-spotify-player";
 import image from "../images/brooke-img.jpeg";
 
 const StyledContainer = styled.div`
-  width: 25%;
+  
+    width: 25%;
   min-height: 100vh;
   background-color: ${props => props.theme.color.mermista};
   position: fixed;
@@ -13,6 +14,15 @@ const StyledContainer = styled.div`
   justify-content: flex-start;
   padding: 1%;
   margin: auto;
+  
+  @media(max-width: 1024px) {
+    position: relative;
+    width: 100%;
+div {
+  padding: 10%
+  // max-height: 100vh;
+}    
+  }
 
   h3,
   h4,
