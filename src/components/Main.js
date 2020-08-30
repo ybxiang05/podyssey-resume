@@ -10,7 +10,7 @@ import ReactPlayer from 'react-player'
 // - why Podyssey would want to work with me;
 
 const StyledDiv = styled.div`
-  margin-left: 25%;
+  margin-left: 30%;
   padding: 5%;
   h3 {
     color: ${props=>props.theme.color.mermista}
@@ -18,6 +18,17 @@ const StyledDiv = styled.div`
   ol{
     list-style-type: lower-alpha;
   }
+  a {
+    text-decoration: none;
+  }
+  a:link,
+  a:visited {
+    color: ${props => props.theme.color.podysseyPink}
+  }
+  a:hover {
+    color: ${props => props.theme.color.mermista}
+  }  
+  a
   .intro {
     border: 5px solid ${props => props.theme.color.podysseyPink};
     padding: 5%;
@@ -26,6 +37,7 @@ const StyledDiv = styled.div`
   .react-player {
     margin: auto;
     justify-self: center;
+    max-width: 700px;
   }
   @media(max-width: 1024px) {
     margin-left: 0;
@@ -53,7 +65,7 @@ const CoverLetter = () => {
       <p>I also made an audio recording of this resume if you want to hear me talk about why you want to work with me instead of reading about it. I figured the best way to get through to people who love podcasts is through the ear. Happy reading/listening!
       </p>
       <ReactPlayer className="react-player" url="https://soundcloud.com/brass_xavier/podyssey_resume"/>
-      <p>Still want to read a traditional resume? <a target="_blank" href="https://docs.google.com/document/d/1igM6Yf56JBBfnSGJcrbeprVnmpS3VH6jGbqC-RDT2Lg/edit?usp=sharing">Click here!</a></p>
+      <p>Still want to read a traditional resume? <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1igM6Yf56JBBfnSGJcrbeprVnmpS3VH6jGbqC-RDT2Lg/edit?usp=sharing">Click here</a>.</p>
       </div>
       <h3>About Me</h3>
       <p>
@@ -98,7 +110,7 @@ const CoverLetter = () => {
 
 <li>I have the creativity to see beyond outside of the box, and the matching capability to execute my vision</li>
 
-<li>Working for something like Odyssey is a long game for me. I chose to complete and submit this application in spite the rejection to make sure you remember me not only for my talent and skills, but also for my tenacity and work ethic. You know, for your next round of hiring! ☺️</li>
+<li>Working for something like Odyssey is a long game for me. I chose to complete and submit this application in spite the rejection to make sure you remember me not only for my talent and skills, but also for my tenacity and work ethic. You know, for your next round of hiring! <span aria-label="smiley face" role="img">😁</span></li>
         </ul>
 
       

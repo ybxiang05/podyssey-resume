@@ -5,22 +5,22 @@ import image from "../images/brooke-img.jpeg";
 
 const StyledContainer = styled.div`
   
-    width: 25%;
+    width: 30%;
   min-height: 100vh;
   background-color: ${props => props.theme.color.mermista};
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 1%;
   margin: auto;
-  
+  div {
+    padding: 5%;
+  }
   @media(max-width: 1024px) {
     position: relative;
     width: 100%;
 div {
   padding: 10%
-  // max-height: 100vh;
 }    
   }
 
@@ -41,6 +41,7 @@ div {
   
   li {
         font-size: 1rem;
+        line-height: 1.5rem;
   }
   p {
     font-size: 0.8rem;
@@ -68,7 +69,8 @@ const SideBar = () => {
       <div>
         <img src={image} alt="Hi! I'm Brooke :)" />
         <h3>Brooke Xiang</h3>
-        <h4>Top 3 Podcasts at time of Writing</h4>
+        <hr/>
+        <h4>Top 3 at time of Writing</h4>
         <ul>
           <li>Ologies</li>
           
