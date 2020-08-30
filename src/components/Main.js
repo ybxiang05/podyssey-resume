@@ -106,11 +106,11 @@ const CoverLetter = () => {
 
 <li>I want to stretch my existing skill-sets, do work that I find meaningful, and grow with groups of like-minded people through the process</li>
 
-<li>When I choose to do something, I choose to do so with 100% effort and 200% thoughtfulness. I didn't want to submit just any application, because I don't want to work for Odyssey like I want to work for any other organization</li>
+<li>When I choose to do something, I choose to do so with 100% effort and 200% thoughtfulness. I didn't want to submit just any application, because I don't want to work for Podyssey like I want to work for any other organization</li>
 
-<li>I have the creativity to see beyond outside of the box, and the matching capability to execute my vision</li>
+<li>I have the creativity to see beyond the box, and the matching capability to execute my vision</li>
 
-<li>Working for something like Odyssey is a long game for me. I chose to complete and submit this application in spite the rejection to make sure you remember me not only for my talent and skills, but also for my tenacity and work ethic. You know, for your next round of hiring! <span aria-label="smiley face" role="img">😁</span></li>
+<li>Working for something like Podyssey is a long game for me. I chose to complete and submit this application in spite the rejection to make sure you remember me not only for my talent and skills, but also for my tenacity and work ethic. You know, for your next round of hiring! <span aria-label="smiley face" role="img">😁</span></li>
         </ul>
 
       
