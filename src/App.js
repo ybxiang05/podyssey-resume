@@ -2,23 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import Theme from "./theme/theme";
 import GlobalStyles from "./theme/globalStyles";
-import SideBar from "./components/SideBar";
-import CoverLetter from "./components/Main";
+import SideBar from "./components/sideBar";
+import CoverLetter from "./components/main";
 
 const AppWrapper = styled.div`
   display: flex;
   flex-direction: row;
   height: 100vh;
 `;
-
-// TODO:
-
-// 1. implement react router so I can include:
-// - traditional resume;
-// - writing sample;
-// 2. do more work on UI/how I want it to lookup;
-// 3. add profile picture DONE
-// 4. complete sidebar components
 
 function App() {
   return (

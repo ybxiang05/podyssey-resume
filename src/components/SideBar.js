@@ -10,26 +10,39 @@ const StyledContainer = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
-
-  div {
-    margin: auto;
-  }
+  justify-content: flex-start;
+  padding: 1%;
+  margin: auto;
 
   h3,
-  p {
+  h4,
+  p,
+  li {
     color: ${props => props.theme.color.wrongHordak};
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
-
+  h4 {
+    font-size: 1.25rem;
+  }
+  
+  li {
+        font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  
   img {
-    height: 250px;
-    width: 250px;
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border-radius: 150px;
-    align-self: center;
     border: solid 5px ${props => props.theme.color.wrongHordak};
   }
 `;
@@ -45,9 +58,16 @@ const SideBar = () => {
       <div>
         <img src={image} alt="Hi! I'm Brooke :)" />
         <h3>Brooke Xiang</h3>
-        <p>Education</p>
-        <p>Favourite podcasts and why (3)</p>
-        <p>social media/where to find me</p>
+        <h4>Top 3 Podcasts at time of Writing</h4>
+        <ul>
+          <li>Ologies</li>
+          
+          <li>NPR's Code Switch</li>
+          <li>The Moth</li>
+        </ul>
+        <p>
+            Alie "Dad" Ward of Ologies is easily one of my favourite interviewers. I embedded my favourite Ologies episode of all time here to give you a sense of who I am as a person: a little bit metal, unapologeticially and brilliantly quirky, and full of unexpected knowledge.
+          </p>
         <SpotifyPlayer
           uri="spotify:episode:2SHRqwykgwVUN4QK2NCasY"
           size={playerSize}

@@ -6,7 +6,8 @@ const theme = {
     mermista: "#095c7d",
     glimmer: "#d65ee6",
     sheRa: "#f2db29",
-    wrongHordak: "#fafaf7"
+    wrongHordak: "#fafaf7",
+    podysseyPink: "#F76C6C"
   }
 };
 
