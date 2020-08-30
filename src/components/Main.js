@@ -20,7 +20,7 @@ const StyledDiv = styled.div`
   }
   .intro {
     border: 5px solid ${props => props.theme.color.podysseyPink};
-    padding: 1%;
+    padding: 5%;
     border-radius: 20px;
   }
   .react-player {
