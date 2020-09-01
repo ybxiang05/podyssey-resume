@@ -4,8 +4,7 @@ import SpotifyPlayer from "react-spotify-player";
 import image from "../images/brooke-img.jpeg";
 
 const StyledContainer = styled.div`
-  
-    width: 30%;
+  width: 30%;
   min-height: 100vh;
   background-color: ${props => props.theme.color.mermista};
   position: fixed;
@@ -13,15 +12,16 @@ const StyledContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   margin: auto;
+  z-index: 2;
   div {
     padding: 5%;
   }
-  @media(max-width: 1024px) {
+  @media (max-width: 1024px) {
     position: relative;
     width: 100%;
-div {
-  padding: 10%
-}    
+    div {
+      padding: 10%;
+    }
   }
 
   h3,
@@ -38,15 +38,15 @@ div {
   h4 {
     font-size: 1.25rem;
   }
-  
+
   li {
-        font-size: 1rem;
-        line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
   p {
     font-size: 0.8rem;
   }
-  
+
   img {
     display: block;
     margin: auto;
@@ -69,17 +69,20 @@ const SideBar = () => {
       <div>
         <img src={image} alt="Hi! I'm Brooke :)" />
         <h3>Brooke Xiang</h3>
-        <hr/>
+        <hr />
         <h4>Top 3 at time of Writing</h4>
         <ul>
           <li>Ologies</li>
-          
+
           <li>NPR's Code Switch</li>
           <li>The Moth</li>
         </ul>
         <p>
-            Alie "Dad" Ward of Ologies is easily one of my favourite interviewers. I embedded my favourite Ologies episode of all time here to give you a sense of who I am as a person: a little bit metal, unapologeticially and brilliantly quirky, and full of unexpected knowledge.
-          </p>
+          Alie "Dad" Ward of Ologies is easily one of my favourite interviewers. I embedded my
+          favourite Ologies episode of all time here to give you a sense of who I am as a person: a
+          little bit metal, unapologeticially and brilliantly quirky, and full of unexpected
+          knowledge.
+        </p>
         <SpotifyPlayer
           uri="spotify:episode:2SHRqwykgwVUN4QK2NCasY"
           size={playerSize}

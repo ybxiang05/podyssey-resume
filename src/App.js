@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import Theme from "./theme/theme";
 import GlobalStyles from "./theme/globalStyles";
-import SideBar from "./components/sideBar";
-import CoverLetter from "./components/main";
+import SideBar from "./components/SideBar";
+import Main from "./components/Main";
+import Header from "./components/Header";
 
 const AppWrapper = styled.div`
   display: flex;
@@ -19,7 +20,8 @@ function App() {
       <AppWrapper className="App">
         <GlobalStyles />
         <SideBar />
-        <CoverLetter />
+        <Header />
+        <Main />
       </AppWrapper>
     </Theme>
   );
