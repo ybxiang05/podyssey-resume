@@ -39,42 +39,55 @@ const StyledHeader = styled.div`
     display: none;
   }
 `;
+const StyledBurger = styled.div`
+  display: none;
+  @media (max-width: ${props => props.theme.breakpoint.tablet}) {
+    display: block;
+    position: absolute;
+    z-index: 2;
+  }
+`;
 
 const Header = () => {
   return (
-    <StyledHeader>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">README</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">Portfolio Highlights</Link>
-          </li>
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ybxiang05">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <Link to="/writing-sample">Writing Sample</Link>
-          </li>
-          <li>
-            <Link to="/digital-marketing-resume">Digital Marketing Application</Link>
-          </li>
+    <>
+      <StyledHeader>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">README</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">Portfolio Highlights</Link>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/ybxiang05">
+                GitHub
+              </a>
+            </li>
+            <li>
+              <Link to="/writing-sample">Writing Sample</Link>
+            </li>
+            <li>
+              <Link to="/digital-marketing-resume">Digital Marketing Application</Link>
+            </li>
 
-          <li>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/brooke-xiang/"
-            >
-              LinkedIn
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </StyledHeader>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/brooke-xiang/"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </StyledHeader>
+      <StyledBurger>
+        <p>MENU</p>
+      </StyledBurger>
+    </>
   );
 };
 
