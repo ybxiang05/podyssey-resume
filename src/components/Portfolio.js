@@ -43,8 +43,8 @@ const Portfolio = () => {
   return (
     <StyledPortfolio>
       <h1>
-        Hi! Thanks for visiting my portfolio highlights. Below are some of my recent projects that I
-        had the most fun building.
+        Hi! Thanks for visiting my portfolio highlights. I still have a ton to learn, but below are
+        some of my recent projects that I had the most fun building.
       </h1>
       <h2>Uncle Ray's Ultimate Quarantine Workout</h2>
       <img src={ray} alt="gif of Uncle Ray's Quanrantine Workout" />

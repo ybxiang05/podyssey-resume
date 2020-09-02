@@ -186,7 +186,7 @@ const ReadMe = () => {
       <h2>Technologies Used</h2>
       <ul>
         <li>React</li>
-        <li>Tota11y, for accessibility purposes</li>
+        <li>Tota11y</li>
         <li>React Router</li>
         <li>Styled Components</li>
         <li>React Player</li>
