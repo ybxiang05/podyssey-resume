@@ -10,19 +10,45 @@ const StyledContainer = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   margin: auto;
   z-index: 2;
   div {
     padding: 5%;
   }
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: ${props => props.theme.color.wrongHordak};
+  }
+  a:hover {
+    color: ${props => props.theme.color.podysseyPink};
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .sidebar-half {
+    padding-top: 0;
+  }
   @media (max-width: 1024px) {
-    position: block;
+    display: flex;
+    position: relative;
     z-index: 0;
     width: 100%;
-    div {
-      // padding: 10%;
-    }
+    min-height: 0;
+    margin-top: 75px;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+  @media (max-width: ${props => props.theme.breakpoint.tablet}) {
+    flex-direction: column;
+    margin-top: 0;
+    max-height: 100vh;
   }
 
   h3,
@@ -45,7 +71,7 @@ const StyledContainer = styled.div`
     line-height: 1.5rem;
   }
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   img {
@@ -67,10 +93,17 @@ const playerSize = {
 const SideBar = () => {
   return (
     <StyledContainer>
-      <div>
-        <img src={image} alt="Hi! I'm Brooke :)" />
+      <div className="sidebar-half top">
+        <img src={image} alt="Hi! I'm Brooke!" />
         <h3>Brooke Xiang</h3>
-        <hr />
+        <div className="contact">
+          <a target="_blank" rel="noopener noreferrer" href="mailto: brooke.xiang@gmail.com">
+            brooke.xiang@gmail.com
+          </a>
+          <p>604.723.9993</p>
+        </div>
+      </div>
+      <div className="sidebar-half bottom">
         <h4>Top 3 Podcasts at time of Writing</h4>
         <ul>
           <li>Ologies</li>

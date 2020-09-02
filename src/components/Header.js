@@ -6,16 +6,17 @@ const StyledHeader = styled.div`
   position: fixed;
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 70%;
+  margin-left: 30%;
   background-color: ${props => props.theme.color.wrongHordak};
   box-shadow: 0 5px 10px 0 grey;
   ul {
     display: flex;
     flex-direction: row;
-    justify-items: space-between;
     list-style-type: none;
     li {
       padding: 10px 20px;
+      font-size: 1rem;
     }
     a {
       text-decoration: none;
@@ -27,7 +28,15 @@ const StyledHeader = styled.div`
     }
   }
   @media (max-width: 1024px) {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+  }
+  @media (max-width: ${props => props.theme.breakpoint.tablet}) {
+    display: none;
   }
 `;
 
@@ -40,12 +49,12 @@ const Header = () => {
             <Link to="/">README</Link>
           </li>
           <li>
+            <Link to="/portfolio">Portfolio Highlights</Link>
+          </li>
+          <li>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ybxiang05">
               GitHub
             </a>
-          </li>
-          <li>
-            <Link to="/portfolio">Portfolio Highlights</Link>
           </li>
           <li>
             <Link to="/writing-sample">Writing Sample</Link>

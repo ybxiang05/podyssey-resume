@@ -35,7 +35,7 @@ const StyledMain = styled.main`
     font-size: 1rem;
   }
   @media (max-width: 1024px) {
-    margin: 50px;
+    margin: auto;
   }
 `;
 

@@ -19,8 +19,8 @@ function App() {
     <Theme>
       <AppWrapper className="App">
         <GlobalStyles />
-        <SideBar />
         <Header />
+        <SideBar />
         <Main />
       </AppWrapper>
     </Theme>

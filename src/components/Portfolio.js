@@ -30,6 +30,12 @@ const StyledPortfolio = styled.div`
   .r10-imgs {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 1024px) {
+    img {
+      max-height: 350px;
+    }
   }
 `;
 const Portfolio = () => {
@@ -53,7 +59,11 @@ const Portfolio = () => {
         between exercises, and thus was born Uncle Ray's Ultimate Quarantine Workout (Uncle Ray is a
         stoic teammate who runs these workouts).{" "}
       </p>
-      <a href="https://github.com/ybxiang05/Uncle-Rays-Quarantine-Workouts">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/ybxiang05/Uncle-Rays-Quarantine-Workouts"
+      >
         Click here to see the project on GitHub
       </a>
       <p>Technologies Used:</p>
@@ -78,7 +88,9 @@ const Portfolio = () => {
         It also holds significance for me as a musician, who wants to help foster Vancouver's local
         music scene.
       </p>
-      <a href="https://github.com/carbonmass/venmuse">Click here to see the project on GitHub</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/carbonmass/venmuse">
+        Click here to see the project on GitHub
+      </a>
       <p>Technologies Used:</p>
       <ul>
         <li>React</li>
@@ -90,9 +102,9 @@ const Portfolio = () => {
       </ul>
       <h2>R10</h2>
       <div className="r10-imgs">
-        <img src={r10Session} alt="an image of R10's single event screen" />
-        <img src={r10Schedule} alt="an image of R10's schedule event screen" />
-        <img src={r10About} alt="an image of R10's about screen" />
+        <img src={r10Session} alt="R10's single event screen" />
+        <img src={r10Schedule} alt="R10's schedule event screen" />
+        <img src={r10About} alt="R10's about screen" />
       </div>
       <p>
         Ah, R10. I still don't understand why this project is called R10; it's one of the standard
@@ -103,10 +115,16 @@ const Portfolio = () => {
         only how to use React Native, but its full potential. Really, I think I just really like JSX
         and being able to use states and ternary statements (is that weird? There's something I find
         really satisfying about being using `useState` to turn components on and off like a
-        lightswitch <span>😅</span>)
+        lightswitch
+        <span role="img" aria-label="sheepish smiley face">
+          😅
+        </span>
+        )
       </p>
 
-      <a href="https://github.com/carbonmass/r10">Click here to see the project on GitHub</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/carbonmass/r10">
+        Click here to see the project on GitHub
+      </a>
       <p>Technologies Used:</p>
       <ul>
         <li>React Native</li>
