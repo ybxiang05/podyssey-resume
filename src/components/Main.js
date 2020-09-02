@@ -40,7 +40,6 @@ const StyledMain = styled.main`
 `;
 
 const Main = () => {
-  const [menu, useMenu] = React.useState(false);
   return (
     <StyledMain>
       <Switch>

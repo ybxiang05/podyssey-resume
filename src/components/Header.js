@@ -39,16 +39,94 @@ const StyledHeader = styled.div`
     display: none;
   }
 `;
-const StyledBurger = styled.div`
+const StyledButton = styled.div`
   display: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
   @media (max-width: ${props => props.theme.breakpoint.tablet}) {
     display: block;
-    position: absolute;
+    position: fixed;
     z-index: 2;
+    background-color: ${props => props.theme.color.wrongHordak};
   }
 `;
+const StyledNav = styled.nav`
+  background-color: ${props => props.theme.color.wrongHordak};
+  a {
+    text-decoration: none;
+    color: ${props => props.theme.color.mermista};
+  }
+  a:hover,
+  a:active {
+    color: ${props => props.theme.color.podysseyPink};
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    li {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  display: none;
+  @media (max-width: 1024px) {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+  }
+  height: 100vh;
+`;
+
+const BurgerMenu = () => {
+  return (
+    <StyledNav>
+      <ul>
+        <li>
+          <Link to="/">README</Link>
+        </li>
+        <li>
+          <Link to="/portfolio">Portfolio Highlights</Link>
+        </li>
+        <li>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/ybxiang05">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <Link to="/writing-sample">Writing Sample</Link>
+        </li>
+        <li>
+          <Link to="/digital-marketing-resume">Digital Marketing Application</Link>
+        </li>
+
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/brooke-xiang/"
+          >
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </StyledNav>
+  );
+};
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const onClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log(isMenuOpen);
+  };
   return (
     <>
       <StyledHeader>
@@ -84,9 +162,8 @@ const Header = () => {
           </ul>
         </nav>
       </StyledHeader>
-      <StyledBurger>
-        <p>MENU</p>
-      </StyledBurger>
+      <StyledButton onClick={onClick}>{isMenuOpen ? <p>x</p> : <p>menu</p>}</StyledButton>
+      {isMenuOpen && <BurgerMenu />}
     </>
   );
 };
