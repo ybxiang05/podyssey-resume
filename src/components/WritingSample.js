@@ -16,7 +16,12 @@ const WritingSample = () => {
       <h1>Writing Samples</h1>
       <h5>
         Technical Writing (client-facing):
-        <a className="ws-anchor" href="https://github.com/ybxiang05/harness-docs">
+        <a
+          className="ws-anchor"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/ybxiang05/harness-docs"
+        >
           {" "}
           Harness App Instructions
         </a>
@@ -26,6 +31,8 @@ const WritingSample = () => {
         Editorial Writing:
         <a
           className="ws-anchor"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://docs.google.com/document/d/1N6W7eAXR514zB0hlLcw93AeaWOxSb4l5cxkxFSigjZ0/edit?usp=sharing"
         >
           {" "}
@@ -35,7 +42,12 @@ const WritingSample = () => {
 
       <h5>
         Academic Writing:
-        <a className="ws-anchor" href="https://canlit.ca/article/diasporic-belongings/">
+        <a
+          className="ws-anchor"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://canlit.ca/article/diasporic-belongings/"
+        >
           {" "}
           Diasporic (Be)longings
         </a>

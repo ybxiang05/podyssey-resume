@@ -17,7 +17,8 @@ const StyledContainer = styled.div`
     padding: 5%;
   }
   @media (max-width: 1024px) {
-    position: relative;
+    position: block;
+    z-index: 0;
     width: 100%;
     div {
       padding: 10%;

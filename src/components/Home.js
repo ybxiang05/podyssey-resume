@@ -69,7 +69,7 @@ const ReadMe = () => {
       <ul>
         <li>
           <h5>
-            Front-end developer with Harness <span> (Apr 2020 - Jun 2020)</span>
+            Front-end developer, Harness App <span> (Apr 2020 - Jun 2020)</span>
           </h5>
           <p>
             A Toronto-based startup whose management app helps construction companies take care of

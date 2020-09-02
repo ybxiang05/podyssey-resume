@@ -32,12 +32,15 @@ const StyledMain = styled.main`
   ul,
   p {
     line-height: 1.75rem;
-    list-style-type: none;
     font-size: 1rem;
+  }
+  @media (max-width: 1024px) {
+    margin: 50px;
   }
 `;
 
 const Main = () => {
+  const [menu, useMenu] = React.useState(false);
   return (
     <StyledMain>
       <Switch>

@@ -26,6 +26,9 @@ const StyledHeader = styled.div`
       color: ${props => props.theme.color.podysseyPink};
     }
   }
+  @media (max-width: 1024px) {
+    display: block;
+  }
 `;
 
 const Header = () => {

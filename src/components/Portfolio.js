@@ -11,6 +11,11 @@ const StyledPortfolio = styled.div`
   border-radius: 5px;
   margin: 2%;
   padding: 5%;
+  h2,
+  h5 {
+    text-align: center;
+    line-height: 1.75rem;
+  }
 
   ul {
     line-height: 1.75rem;
@@ -30,10 +35,10 @@ const StyledPortfolio = styled.div`
 const Portfolio = () => {
   return (
     <StyledPortfolio>
-      <p>
+      <h5>
         Hi! Thanks for visiting my portfolio highlights. Below are some of my recent projects that I
         had the most fun building.
-      </p>
+      </h5>
       <h2>Uncle Ray's Ultimate Quarantine Workout</h2>
       <img src={ray} alt="gif of Uncle Ray's Quanrantine Workout" />
       <p>
