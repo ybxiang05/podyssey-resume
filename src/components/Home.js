@@ -47,7 +47,7 @@ const ReadMe = () => {
         Front-End Developer. Brooke.exe is well-versed in responsive design and development, and
         they love to use tota11y to help them build accessible apps. While Brooke.exe will function
         well in a front-end development role, they also come with additional capabilities such as
-        writing, editing, copywriting, curating, and technical writing.
+        design, writing, editing, copywriting, curating, and technical writing.
       </p>
 
       <a
