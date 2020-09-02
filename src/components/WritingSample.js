@@ -6,7 +6,9 @@ const StyledWritingSamples = styled.div`
   border-radius: 5px;
   margin: 2%;
   padding: 5%;
-  color: ${props => props.theme.color.mermista};
+  .ws-anchor {
+    text-decoration: underline;
+  }
 `;
 const WritingSample = () => {
   return (
@@ -14,12 +16,18 @@ const WritingSample = () => {
       <h1>Writing Samples</h1>
       <h5>
         Technical Writing (client-facing):
-        <a href="https://github.com/ybxiang05/harness-docs"> Harness App Instructions</a>
+        <a className="ws-anchor" href="https://github.com/ybxiang05/harness-docs">
+          {" "}
+          Harness App Instructions
+        </a>
       </h5>
 
       <h5>
         Editorial Writing:
-        <a href="https://docs.google.com/document/d/1N6W7eAXR514zB0hlLcw93AeaWOxSb4l5cxkxFSigjZ0/edit?usp=sharing">
+        <a
+          className="ws-anchor"
+          href="https://docs.google.com/document/d/1N6W7eAXR514zB0hlLcw93AeaWOxSb4l5cxkxFSigjZ0/edit?usp=sharing"
+        >
           {" "}
           Finding Agency in Resilience (Chinatown Stories Foreword)
         </a>
@@ -27,7 +35,10 @@ const WritingSample = () => {
 
       <h5>
         Academic Writing:
-        <a href="https://canlit.ca/article/diasporic-belongings/"> Diasporic (Be)longings</a>
+        <a className="ws-anchor" href="https://canlit.ca/article/diasporic-belongings/">
+          {" "}
+          Diasporic (Be)longings
+        </a>
       </h5>
     </StyledWritingSamples>
   );
