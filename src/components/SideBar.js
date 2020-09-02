@@ -21,7 +21,7 @@ const StyledContainer = styled.div`
     z-index: 0;
     width: 100%;
     div {
-      padding: 10%;
+      // padding: 10%;
     }
   }
 
@@ -71,7 +71,7 @@ const SideBar = () => {
         <img src={image} alt="Hi! I'm Brooke :)" />
         <h3>Brooke Xiang</h3>
         <hr />
-        <h4>Top 3 at time of Writing</h4>
+        <h4>Top 3 Podcasts at time of Writing</h4>
         <ul>
           <li>Ologies</li>
 

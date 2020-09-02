@@ -3,7 +3,6 @@ import styled from "styled-components";
 import ReactPlayer from "react-player";
 
 const StyledDiv = styled.div`
-  margin-left: 30%;
   padding: 5%;
   h3 {
     color: ${props => props.theme.color.mermista};
