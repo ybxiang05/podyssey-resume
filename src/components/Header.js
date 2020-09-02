@@ -78,7 +78,7 @@ const StyledNav = styled.nav`
   display: none;
   @media (max-width: 1024px) {
     display: flex;
-    // position: absolute;
+    position: fixed;
     z-index: 1;
   }
   height: 100vh;
