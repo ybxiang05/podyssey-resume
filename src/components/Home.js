@@ -17,7 +17,7 @@ const StyledReadMe = styled.div`
     display: flex;
     border: 5px solid ${props => props.theme.color.podysseyPink};
     border-radius: 15px;
-    justify-content: center;
+    text-align: center;
     width: fit-content;
     padding: 10px;
     margin: auto;
