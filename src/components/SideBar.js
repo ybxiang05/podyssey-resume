@@ -44,26 +44,26 @@ const StyledContainer = styled.div`
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
   }
   h4 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   li {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   img {
     display: block;
     margin: auto;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 150px;
     border: solid 5px ${props => props.theme.color.wrongHordak};
