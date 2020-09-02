@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.js": "/podyssey_resume/static/js/main.1ed9d994.chunk.js",
-    "main.js.map": "/podyssey_resume/static/js/main.1ed9d994.chunk.js.map",
+    "main.js": "/podyssey_resume/static/js/main.c4c64a7e.chunk.js",
+    "main.js.map": "/podyssey_resume/static/js/main.c4c64a7e.chunk.js.map",
     "runtime-main.js": "/podyssey_resume/static/js/runtime-main.b3bbf7d4.js",
     "runtime-main.js.map": "/podyssey_resume/static/js/runtime-main.b3bbf7d4.js.map",
-    "static/js/2.055fdbdd.chunk.js": "/podyssey_resume/static/js/2.055fdbdd.chunk.js",
-    "static/js/2.055fdbdd.chunk.js.map": "/podyssey_resume/static/js/2.055fdbdd.chunk.js.map",
+    "static/js/2.4cfe18b3.chunk.js": "/podyssey_resume/static/js/2.4cfe18b3.chunk.js",
+    "static/js/2.4cfe18b3.chunk.js.map": "/podyssey_resume/static/js/2.4cfe18b3.chunk.js.map",
     "index.html": "/podyssey_resume/index.html",
-    "precache-manifest.2787cf9274932bf1de94e40b5bd1b987.js": "/podyssey_resume/precache-manifest.2787cf9274932bf1de94e40b5bd1b987.js",
+    "precache-manifest.f052a80cab7b1ae418684be91b80ffc2.js": "/podyssey_resume/precache-manifest.f052a80cab7b1ae418684be91b80ffc2.js",
     "service-worker.js": "/podyssey_resume/service-worker.js",
-    "static/js/2.055fdbdd.chunk.js.LICENSE.txt": "/podyssey_resume/static/js/2.055fdbdd.chunk.js.LICENSE.txt",
-    "static/media/brooke-img.jpeg": "/podyssey_resume/static/media/brooke-img.308c8d08.jpeg"
+    "static/js/2.4cfe18b3.chunk.js.LICENSE.txt": "/podyssey_resume/static/js/2.4cfe18b3.chunk.js.LICENSE.txt",
+    "static/media/brooke-img.jpeg": "/podyssey_resume/static/media/brooke-img.308c8d08.jpeg",
+    "static/media/demo.gif": "/podyssey_resume/static/media/demo.35c2eb09.gif",
+    "static/media/r10-about-android.png": "/podyssey_resume/static/media/r10-about-android.3cb2f8a3.png",
+    "static/media/schedule.png": "/podyssey_resume/static/media/schedule.c8cad4de.png",
+    "static/media/session_screen_ios.png": "/podyssey_resume/static/media/session_screen_ios.56baf46f.png",
+    "static/media/venmuse-artist.png": "/podyssey_resume/static/media/venmuse-artist.91d21f9e.png",
+    "static/media/venmuse-home.png": "/podyssey_resume/static/media/venmuse-home.82115a24.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b3bbf7d4.js",
-    "static/js/2.055fdbdd.chunk.js",
-    "static/js/main.1ed9d994.chunk.js"
+    "static/js/2.4cfe18b3.chunk.js",
+    "static/js/main.c4c64a7e.chunk.js"
   ]
 }
