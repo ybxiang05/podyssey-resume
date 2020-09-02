@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.15rem;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 600;

@@ -6,28 +6,9 @@ const StyledReadMe = styled.div`
   border-radius: 5px;
   margin: 2%;
   padding: 5%;
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: ${props => props.theme.color.mermistaLight};
-  }
-  h2 {
-    font-size: 1.75rem;
-  }
-  h5 {
-    font-size: 1.25rem;
-  }
 
   span {
     font-style: italic;
-  }
-  ul,
-  p {
-    line-height: 1.75rem;
-    list-style-type: none;
-    font-size: 1rem;
   }
 
   .traditional-resume {

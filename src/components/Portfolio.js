@@ -11,13 +11,6 @@ const StyledPortfolio = styled.div`
   border-radius: 5px;
   margin: 2%;
   padding: 5%;
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: ${props => props.theme.color.mermistaLight};
-  }
 
   ul {
     line-height: 1.75rem;
@@ -28,13 +21,7 @@ const StyledPortfolio = styled.div`
     margin: auto;
     padding: 10px;
   }
-  a {
-    text-decoration: none;
-    color: ${props => props.theme.color.mermistaLight};
-  }
-  a:hover {
-    color: ${props => props.theme.color.podysseyPink};
-  }
+
   .r10-imgs {
     display: flex;
     flex-direction: row;
