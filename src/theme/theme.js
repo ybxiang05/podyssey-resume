@@ -13,7 +13,7 @@ const theme = {
   breakpoint: {
     mobile: "425px",
     tablet: "768px",
-    laptop: "1024px"
+    desktop: "1024px"
   }
 };
 

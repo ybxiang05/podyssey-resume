@@ -35,21 +35,6 @@ const StyledContainer = styled.div`
   .sidebar-half {
     padding-top: 0;
   }
-  @media (max-width: 1024px) {
-    display: flex;
-    position: relative;
-    z-index: 0;
-    width: 100%;
-    min-height: 0;
-    margin-top: 75px;
-    flex-direction: row;
-    padding-top: 50px;
-  }
-  @media (max-width: ${props => props.theme.breakpoint.tablet}) {
-    flex-direction: column;
-    margin-top: 0;
-    max-height: 100vh;
-  }
 
   h3,
   h4,
@@ -82,6 +67,31 @@ const StyledContainer = styled.div`
     object-fit: cover;
     border-radius: 150px;
     border: solid 5px ${props => props.theme.color.wrongHordak};
+  }
+  @media (max-width: ${props => props.theme.breakpoint.desktop}) {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    min-height: 0;
+    margin-top: 75px;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+  @media (max-width: ${props => props.theme.breakpoint.tablet}) {
+    flex-direction: column;
+    margin-top: 0;
+    max-height: 100vh;
+    img {
+      height: 150px;
+      width: 150px;
+    }
+    h4 {
+      font-size: 1.15rem;
+      margin: 0;
+    }
+    p,li{
+      font-size: 0.8rem;
   }
 `;
 

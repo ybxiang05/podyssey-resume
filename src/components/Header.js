@@ -27,7 +27,7 @@ const StyledHeader = styled.div`
       color: ${props => props.theme.color.podysseyPink};
     }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: ${props => props.theme.breakpoint.desktop}) {
     display: flex;
     justify-content: space-between;
     position: fixed;
