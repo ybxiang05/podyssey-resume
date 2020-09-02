@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e158158baa47b81555f68abe7552b9a2",
+    "revision": "5a8d4dcb11305947a340986670f6254b",
     "url": "/podyssey_resume/index.html"
   },
   {
-    "revision": "a759a6884ed0e4f53adc",
-    "url": "/podyssey_resume/static/js/2.d0246bcb.chunk.js"
+    "revision": "2de1c9ed505523a33add",
+    "url": "/podyssey_resume/static/js/2.6beb2625.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/podyssey_resume/static/js/2.d0246bcb.chunk.js.LICENSE.txt"
+    "url": "/podyssey_resume/static/js/2.6beb2625.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f37b987cd287856e769",
-    "url": "/podyssey_resume/static/js/main.c07326a0.chunk.js"
+    "revision": "cfef6d8cdf20ecfd0525",
+    "url": "/podyssey_resume/static/js/main.47836a18.chunk.js"
   },
   {
     "revision": "9ac6f4718f494447529e",
