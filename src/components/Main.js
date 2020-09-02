@@ -41,10 +41,10 @@ const Main = () => {
   return (
     <StyledMain>
       <Switch>
-        <Route exact path="/podyssey-resume/" component={Home} />
-        <Route exact path="/podyssey-resume/digital-marketing-resume" component={DMResume} />
-        <Route exact path="/podyssey-resume/portfolio" component={Portfolio} />
-        <Route exact path="/podyssey-resume/writing-sample" component={WritingSample} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/digital-marketing-resume" component={DMResume} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/writing-sample" component={WritingSample} />
       </Switch>
     </StyledMain>
   );
