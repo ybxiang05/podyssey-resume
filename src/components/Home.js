@@ -44,8 +44,10 @@ const ReadMe = () => {
       <h2>Installation Instructions</h2>
       <p>
         To ensure Brooke.exe functions optimally, please install Brooke.exe in the Podyssey app as a
-        Front-End Developer. While Brooke.exe will function well in this role, they also come with
-        capabilities such as writing, editing, copywriting, curating, and technical writing.
+        Front-End Developer. Brooke.exe is well-versed in responsive design and development, and
+        they love to use tota11y to help them build accessible apps. While Brooke.exe will function
+        well in a front-end development role, they also come with additional capabilities such as
+        writing, editing, copywriting, curating, and technical writing.
       </p>
 
       <a
