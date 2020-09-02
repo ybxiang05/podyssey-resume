@@ -13,7 +13,7 @@ const StyledReadMe = styled.div`
 
   .traditional-resume {
     text-decoration: none;
-    color: ${props => props.theme.color.wrongHordak};
+    color: #fff;
     display: flex;
     border: 5px solid ${props => props.theme.color.podysseyPink};
     border-radius: 15px;
@@ -25,6 +25,10 @@ const StyledReadMe = styled.div`
   }
   .traditional-resume:hover {
     color: ${props => props.theme.color.mermista};
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
   }
 `;
 const ReadMe = () => {
@@ -68,9 +72,9 @@ const ReadMe = () => {
       <hr></hr>
       <ul>
         <li>
-          <h5>
+          <h3>
             Front-end developer, Harness App <span> (Apr 2020 - Jun 2020)</span>
-          </h5>
+          </h3>
           <p>
             A Toronto-based startup whose management app helps construction companies take care of
             health and safety paperwork
@@ -96,10 +100,10 @@ const ReadMe = () => {
           </ul>
         </li>
         <li>
-          <h5>
+          <h3>
             Taxpayer Services Agent, Canada Revenue Agency
             <span> (Feb 2019 - Aug 2019)</span>
-          </h5>
+          </h3>
           <p>
             Having you ever phoned in to the CRA about your tax information? You would have spoken
             to a Taxpayer Services Agent like this version of Brooke.exe.
@@ -122,10 +126,10 @@ const ReadMe = () => {
           </ul>
         </li>
         <li>
-          <h5>
+          <h3>
             Post-secondary educator, UBC Department of Language and Literatures
             <span> (Sep 2016 - Dec 2018)</span>
-          </h5>
+          </h3>
           <p>Responsibilities:</p>
           <ul>
             <li>
@@ -143,9 +147,9 @@ const ReadMe = () => {
           </ul>
         </li>
         <li>
-          <h5>
+          <h3>
             Naval Musician and Combat Officer <span> (Jun 2009 – Oct 2016)</span>
-          </h5>
+          </h3>
           <p>Responsibilities:</p>
           <ul>
             <li>
@@ -160,23 +164,33 @@ const ReadMe = () => {
             </li>
             <li>
               Be the face and PR of the Royal Canadian Naval Reserves by helping to unite Canadians
-              through the power of music
+              through music
             </li>
           </ul>
         </li>
       </ul>
       <h2>Dependencies (Education)</h2>
       <hr></hr>
-      <h5>RED Academy</h5>
+      <h3>RED Academy</h3>
       <p>Diploma in Web and App Development</p>
-      <h5>The University of British Columbia</h5>
+      <h3>The University of British Columbia</h3>
       <p>MA; English Language and Literatures</p>
       <p>
         Thesis: "We Don't Talk About This": Reticence, Cultural Identity, and Queerness in Alice
         Wu's Saving Face and Kim Fu's For Today I Am A Boy
       </p>
-      <h5>University of Toronto</h5>
+      <h3>University of Toronto</h3>
       <p>BA Honours; Specialist in English, Minor in Biological Anthropology</p>
+      <h2>Technologies Used</h2>
+      <ul>
+        <li>React</li>
+        <li>Tota11y, for accessibility purposes</li>
+        <li>React Router</li>
+        <li>Styled Components</li>
+        <li>React Player</li>
+        <li>React Spotify Player</li>
+        <li>GitHub Pages</li>
+      </ul>
     </StyledReadMe>
   );
 };

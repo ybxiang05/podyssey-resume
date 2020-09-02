@@ -36,18 +36,18 @@ const StyledContainer = styled.div`
     padding-top: 0;
   }
 
-  h3,
-  h4,
+  h1,
+  h2,
   p,
   li {
     color: ${props => props.theme.color.wrongHordak};
   }
 
-  h3 {
+  h1 {
     font-size: 1.25rem;
     text-align: center;
   }
-  h4 {
+  h2 {
     font-size: 1rem;
   }
 
@@ -86,7 +86,7 @@ const StyledContainer = styled.div`
       height: 150px;
       width: 150px;
     }
-    h4 {
+    h2 {
       font-size: 1.15rem;
       margin: 0;
     }
@@ -105,7 +105,7 @@ const SideBar = () => {
     <StyledContainer>
       <div className="sidebar-half top">
         <img src={image} alt="Hi! I'm Brooke!" />
-        <h3>Brooke Xiang</h3>
+        <h1>Brooke Xiang</h1>
         <div className="contact">
           <a target="_blank" rel="noopener noreferrer" href="mailto: brooke.xiang@gmail.com">
             brooke.xiang@gmail.com
@@ -114,7 +114,7 @@ const SideBar = () => {
         </div>
       </div>
       <div className="sidebar-half bottom">
-        <h4>Top 3 Podcasts at time of Writing</h4>
+        <h2>Top 3 Podcasts at time of Writing</h2>
         <ul>
           <li>Ologies</li>
 

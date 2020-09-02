@@ -24,7 +24,7 @@ const StyledMain = styled.main`
   }
   a {
     text-decoration: none;
-    color: ${props => props.theme.color.mermistaLight};
+    color: ${props => props.theme.color.mermista};
   }
   a:hover {
     color: ${props => props.theme.color.podysseyPink};

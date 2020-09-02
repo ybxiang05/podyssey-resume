@@ -12,9 +12,10 @@ const StyledPortfolio = styled.div`
   margin: 2%;
   padding: 5%;
   h2,
-  h5 {
+  h1 {
     text-align: center;
     line-height: 1.75rem;
+    font-size: 1.25rem;
   }
 
   ul {
@@ -41,10 +42,10 @@ const StyledPortfolio = styled.div`
 const Portfolio = () => {
   return (
     <StyledPortfolio>
-      <h5>
+      <h1>
         Hi! Thanks for visiting my portfolio highlights. Below are some of my recent projects that I
         had the most fun building.
-      </h5>
+      </h1>
       <h2>Uncle Ray's Ultimate Quarantine Workout</h2>
       <img src={ray} alt="gif of Uncle Ray's Quanrantine Workout" />
       <p>
@@ -58,6 +59,13 @@ const Portfolio = () => {
         social interaction. I got tired of having to refer back to Zoom chat for the next workout
         between exercises, and thus was born Uncle Ray's Ultimate Quarantine Workout (Uncle Ray is a
         stoic teammate who runs these workouts).{" "}
+      </p>
+      <p>
+        This project is special to me because it's the first app I built that was entirely my own.
+        While I understand why design and development are compartmentalized for efficiency in this
+        trade, I value them together as a holistic process. Uncle Ray's allowed me to meld the two
+        into a singular creative process, and I want to bring the same keen eye for design to
+        working with Podyssey.
       </p>
       <a
         target="_blank"
@@ -85,8 +93,11 @@ const Portfolio = () => {
       </p>
       <p>
         I liked this project a lot because I got to design all of the UX, as well as some of the UI.
-        It also holds significance for me as a musician, who wants to help foster Vancouver's local
-        music scene.
+        I tend to think of myself as a fairly logical person without too much thought as to how
+        others might arrive at the same conclusion through different journeys. Designing the UX flow
+        really pushed me to, in a way, think out side of my own brain and "make sense" of the app
+        through someone else's eyes. This project also holds significance for me as a musician,
+        since I'm keen on helping to foster Vancouver's local music scene.
       </p>
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/carbonmass/venmuse">
         Click here to see the project on GitHub
@@ -111,15 +122,16 @@ const Portfolio = () => {
         projects in the RED Academy App Dev course.
       </p>
       <p>
-        This project is special to me because it was the first time I felt like I understand not
-        only how to use React Native, but its full potential. Really, I think I just really like JSX
-        and being able to use states and ternary statements (is that weird? There's something I find
-        really satisfying about being using `useState` to turn components on and off like a
-        lightswitch
+        This project is special to me because it was the first time I felt like I understood how to
+        use React Native as well as its full potential. Really, I think I just like JSX and being
+        able to use hooks and ternary statements (is that weird? There's something I find really
+        satisfying about being using `useState` to turn components on and off like a lightswitch
         <span role="img" aria-label="sheepish smiley face">
           😅
         </span>
-        )
+        ). I think, to my previous point about creating a holistic product, I appreciate that JSX
+        allows me to mix HTML and JavaScript together, and separate them based on my own logic
+        instead of someone else's.
       </p>
 
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/carbonmass/r10">

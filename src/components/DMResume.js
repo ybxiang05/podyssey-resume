@@ -12,15 +12,15 @@ const StyledDiv = styled.div`
   }
   a {
     text-decoration: none;
+    color: ${props => props.theme.color.mermista};
+    margin: auto;
+    display: flex;
   }
-  a:link,
-  a:visited {
+
+  a:hover {
     color: ${props => props.theme.color.podysseyPink};
   }
-  a:hover {
-    color: ${props => props.theme.color.mermista};
-  }
-  a .intro {
+  .intro {
     border: 5px solid ${props => props.theme.color.podysseyPink};
     padding: 5%;
     border-radius: 20px;
@@ -60,15 +60,13 @@ const DMResume = () => {
           url="https://soundcloud.com/brass_xavier/podyssey_resume"
         />
         <p>
-          Still want to read a traditional resume?
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://docs.google.com/document/d/1igM6Yf56JBBfnSGJcrbeprVnmpS3VH6jGbqC-RDT2Lg/edit?usp=sharing"
           >
-            Click here
+            Still want to read a traditional resume? Click here
           </a>
-          .
         </p>
       </div>
       <h3>About Me</h3>
