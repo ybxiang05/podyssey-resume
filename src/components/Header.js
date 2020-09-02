@@ -37,7 +37,7 @@ const Header = () => {
             <Link to="/">README</Link>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/ybxiang05">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ybxiang05">
               GitHub
             </a>
           </li>
@@ -45,14 +45,18 @@ const Header = () => {
             <Link to="/portfolio">Portfolio Highlights</Link>
           </li>
           <li>
+            <Link to="/writing-sample">Writing Sample</Link>
+          </li>
+          <li>
             <Link to="/digital-marketing-resume">Digital Marketing Application</Link>
           </li>
 
           <li>
-            <Link to="/writing-sample">Writing Sample</Link>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/brooke-xiang/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/brooke-xiang/"
+            >
               LinkedIn
             </a>
           </li>
