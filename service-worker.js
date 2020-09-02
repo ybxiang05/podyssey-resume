@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/podyssey_resume/precache-manifest.f052a80cab7b1ae418684be91b80ffc2.js"
+  "/podyssey_resume/precache-manifest.923fde5cfc6a798225f713ee2504d798.js"
 );
 
 self.addEventListener('message', (event) => {
